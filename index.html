@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Doughouse</title>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +12,17 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <title>Doughouse</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="owl.carousel.min.css">
+
+
+
   </head>
   <body>
     <!--Navigaition Bar-->
@@ -18,7 +30,7 @@
       <div class="container">
         <a href="index.html" class="navbar-brand">
           <img
-            src="images/dh.png"
+            src="/images/dh.png"
             alt="Doughouse Logo"
             width="105"
             height="60"
@@ -33,32 +45,271 @@
         >
           <span class="navbar-toggler-icon" />
         </button>
+        
+
+
+
+        
         <!--Menu-->
         <div class="collapse navbar-collapse" id="navbarToggle">
-            <ul class="nav navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a href="#home" class="nav-link smoothScroll active">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#about" class="nav-link smoothScroll">About</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#chef" class="nav-link smoothScroll">Chef</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#menu" class="nav-link smoothScroll">Menu</a>
-                </li>
-                <li class="nav-item"><a href="https://wa.me/08108701574?text=Welcome%20to%20Doughouse" class="nav-link smoothScroll">Contact</a></li>
-              </ul>
+          <ul class="nav navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link smoothScroll active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link smoothScroll">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#chef" class="nav-link smoothScroll">Chef</a>
+            </li>
+            <li class="nav-item">
+              <a href="#menu" class="nav-link smoothScroll">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://wa.me/08108701574?text=Welcome%20to%20Doughouse"
+                class="nav-link smoothScroll"
+                >Contact</a
+              >
+            </li>
+            <a href="#footer" class="section-btn">Reserve a table</a>
+          </ul>
         </div>
       </div>
     </nav>
 
+
+    <section id="menu" data-stellar-background-ratio="0.5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 col-sm-12">
+                  <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                      <h2>Our Menu</h2>
+                      <h5>Tell us what you would like to eat</h5>
+                  </div>
+              </div>
+  
+              <div class="row">
+                  <div class="col-md-4 col-sm-6 mb-4">
+                      <div class="card">
+                          <img src="images/menu-image6.jpg" class="card-img-top" alt="Main Dishes">
+                          <div class="card-body">
+                              <h5 class="card-title">Main Dishes</h5>
+                              <p class="card-text">Basmati Asun rice and more...</p>
+                              <p class="card-text"><span>₦3,500</span></p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 mb-4">
+                      <div class="card">
+                          <img src="images/menu-image2.jpg" class="card-img-top" alt="Grills">
+                          <div class="card-body">
+                              <h5 class="card-title">Grills</h5>
+                              <p class="card-text">Asun | Catfish | Suya</p>
+                              <p class="card-text"><span>₦1,800</span></p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 mb-4">
+                      <div class="card">
+                          <img src="images/menu-images3.jpg" class="card-img-top" alt="Doughnut">
+                          <div class="card-body">
+                              <h5 class="card-title">Doughnut</h5>
+                              <p class="card-text">Chocolate | Milk | Red Velvet</p>
+                              <p class="card-text"><span>₦3,400</span></p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 mb-4">
+                      <div class="card">
+                          <img src="images/menu-image4.jpg" class="card-img-top" alt="Shawarma">
+                          <div class="card-body">
+                              <h5 class="card-title">Shawarma</h5>
+                              <p class="card-text">Green / Chicken</p>
+                              <p class="card-text"><span>₦28,000</span></p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 mb-4">
+                      <div class="card">
+                          <img src="images/menu-imag5.jpg" class="card-img-top" alt="Burger">
+                          <div class="card-body">
+                              <h5 class="card-title">Burger</h5>
+                              <p class="card-text">Beef | Chicken</p>
+                              <p class="card-text"><span>₦6,600</span></p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 mb-4">
+                      <div class="card">
+                          <img src="images/menu-image1.jpg" class="card-img-top" alt="Pizza">
+                          <div class="card-body">
+                              <h5 class="card-title">Partfait</h5>
+                              <p class="card-text">Fruit Partfait | Cake Partfait</p>
+                              <p class="card-text"><span>₦8,600</span></p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 mb-4"></div>
+                  </div>
+                  </div>
+                  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section id="testimonial" data-stellar-background-ratio="0.5">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+          <h2>Testimonials</h2>
+        </div>
+      </div>
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <p>
+              "I really enjoyed the shawarma, burger and ice cream.
+              The beef in the shawarma was really tender and soft, the sauce was enough and
+              I discovered that the buns for the burger are actually made within the restaurant.
+              The burger was also creamy and the buns were soft. The price is also affordable."
+            </p>
+            <div class="tst-author">
+              <h4>Olabowale Emmanuel Popoola</h4>
+              <span>.</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <p>
+              "Trust me, from the services to the food is a top notch within Sagamu and it's environs. 
+              There is no regret whatsoever on anything you choose from the menu. 
+              It is really a bite and more @doughouse"
+            </p>
+            <div class="tst-author">
+              <h4>Festus Odunayo</h4>
+              <span>.</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <p>
+                "Yo! That's my second house in sagamu o, when I am sad , happy, hungry, full or 'almost dead'😂😂😂... ABSOLUTELY THE BEST!"
+            </p>
+            <div class="tst-author">
+              <h4>Mofiyinfoluwa Ebunoluwa</h4>
+              <span>.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <!-- FOOTER -->
+     <section>
+      <footer id="footer" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-8">
+              <div class="footer-info">
+                <div class="section-title">
+                  <h2 class="wow fadeInUp" data-wow-delay="0.2s">Find us</h2>
+                </div>
+                <address class="wow fadeInUp" data-wow-delay="0.4s">
+                  <p>
+                    Isale-oko, beside MRS Fueling Station,<br />
+                    Sagamu 121102, Ogun State,<br /> Nigeria
+                  </p>
+                </address>
+              </div>
+            </div>
+  
+            <div class="col-md-3 col-sm-8">
+              <div class="footer-info">
+                <div class="section-title">
+                  <h2 class="wow fadeInUp" data-wow-delay="0.2s">Special Order</h2>
+                </div>
+                <address class="wow fadeInUp" data-wow-delay="0.4s">
+                  <p>08102751331 | 09022623023</p>
+                  <p><a href="doughouseboulangerie@gmail.com">doughouseboulangerie@gmail.com</a></p>
+                  <p>LINE: eatery247</p>
+                </address>
+              </div>
+            </div>
+  
+            <div class="col-md-4 col-sm-8">
+              <div class="footer-info footer-open-hour">
+                <div class="section-title">
+                  <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
+                </div>
+                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                 <div>
+                   <strong>Monday - Wednesday</strong>
+                   <p>8:00 AM - 10:00 PM</p>   
+                 </div> 
+                 
+                  <div>
+                    <strong>Thursday | Sunday</strong>
+                    <p>10:00 AM - 10:00 PM</p>
+                  </div>
+                  <div>
+                    <strong>Friday</strong>
+                    <p>8:00 AM - 10:00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-2 col-sm-4">
+              <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61555877367620&mibextid=ZbWKwL " target="_blank"
+                    class="fa fa-facebook-square" 
+                    attr="facebook icon" 
+                  ></a>
+                </li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="https://www.instagram.com/thedoughouse?igsh=MXV2d2htYWZkM3dhbA==" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-google"></a></li>
+              </ul>
+  
+              <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+                <p>
+                  <br />Copyright &copy; 2018 <br />Doughouse
+  
+                  <br /><br />Design:
+                  <a rel="nofollow" href="https://www.instagram.com/demmygraphics.ng?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_parent"
+                    >DemmyGraphics</a
+                  >
+                  <br /><br />Distribution:
+                  <p>Bitwise Bravura</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+     </section>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/css/owl.carousel.css"></script>
+
   </body>
 </html>
