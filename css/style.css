@@ -194,9 +194,7 @@ http://www.templatemo.com/tm-515-eatery
     animation: spinner .9s linear infinite;
   }
 
-  @-webkit-@keyframes spinner {
-    to {transform: rotate(360deg);}
-  }
+
 
   @keyframes spinner {
     to {transform: rotate(360deg);}
@@ -411,7 +409,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/DZ0A5461.jpg);
   }
 
   .slider .item-second .section-btn {
@@ -642,7 +640,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #testimonial {
-    background: url('../images/testimonial-bg.jpg') center center no-repeat;
+    background: url('../images/DZ0A5079.jpg') center center no-repeat;
     background-size: cover;
   }
 
@@ -781,7 +779,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .footer-open-hour {
     background: #ce3232;
-    background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
+    background: url('../images/DZ0A5080.jpg') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
